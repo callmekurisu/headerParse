@@ -23,7 +23,7 @@ app.set('port', (process.env.PORT || 5000));
     app.get('/api',function (req, res) {
       var ipAddy = ip.address()
       var os =  process.platform
-      var lang = JSON.stringify(request.get("http://localhost:5000"))
+      var lang = JSON.stringify(request.get("https://callmekurisu-headerparse.herokuapp.com"))
       res.send('{"ip: '+ipAddy+", "+"os: "+os+", "+"lang: "+lang+'"}')
    
 })
