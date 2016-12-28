@@ -1,0 +1,11 @@
+{
+  "name": "headerParse",
+  "version": "0.0.0",
+  "description": "Free Code Camp Header Parser Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nigel Christian",
+  "license": "BSD-2-Clause"
+}
